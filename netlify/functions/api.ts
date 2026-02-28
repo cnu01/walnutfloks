@@ -2,7 +2,7 @@ import { createClient } from '@supabase/supabase-js'
 import type { Handler } from '@netlify/functions'
 
 const corsHeaders = {
-    'Access-Control-Allow-Origin': 'https://walnut-floks.netlify.app/',
+    'Access-Control-Allow-Origin': 'https://walnut-floks.netlify.app',
     'Access-Control-Allow-Headers':
         'authorization, x-client-info, apikey, content-type',
 }
