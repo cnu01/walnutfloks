@@ -32,7 +32,7 @@ This guarantees:
    ```env
    VITE_API_URL=http://localhost:8889/.netlify/functions/api
    SUPABASE_URL=your_project_url_here
-   SUPABASE_ANON_KEY=your_supabase_key_here
+   SUPABASE_SERVICE_ROLE_KEY=your_supabase_key_here
    ```
 
 3. **Start the Local Server**
