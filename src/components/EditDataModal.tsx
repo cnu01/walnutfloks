@@ -26,7 +26,7 @@ export const EditDataModal: React.FC<Props> = ({ isOpen, onClose, currentData, o
         setLoading(true);
         setError(null);
         try {
-            const apiUrl = import.meta.env.VITE_API_URL || '/.netlify/functions/api';
+            const apiUrl = "https://walnut-floks.netlify.app/.netlify/functions/api"
             const res = await fetch(apiUrl, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
@@ -62,7 +62,7 @@ export const EditDataModal: React.FC<Props> = ({ isOpen, onClose, currentData, o
         setLoading(true);
         setError(null);
         try {
-            const apiUrl = import.meta.env.VITE_API_URL || '/.netlify/functions/api';
+            const apiUrl = "https://walnut-floks.netlify.app/.netlify/functions/api"
             const res = await fetch(apiUrl, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
